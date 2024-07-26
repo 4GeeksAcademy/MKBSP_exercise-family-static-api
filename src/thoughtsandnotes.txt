@@ -1,0 +1,25 @@
+4 endpoints
+    get 1 member
+    get all members
+    post one member
+    delete 1 member
+
+Every member of the Jackson family must be a dictionary - the equivalent of Objects Literals in JS - and have these values:
+    + id: Int
+    + first_name: String
+    + last_name: String (Always Jackson)
+    + age: Int > 0
+    + lucky_numbers: List of integers
+
+Initial Family members
+    John Jackson
+    33 Years old
+    Lucky Numbers: 7, 13, 22
+
+    Jane Jackson
+    35 Years old
+    Lucky Numbers: 10, 14, 3
+
+    Jimmy Jackson
+    5 Years old
+    Lucky Numbers: 1
